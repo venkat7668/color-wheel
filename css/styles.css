@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#dropImage {
+    width: 200px;
+    height: 200px;
+    background: #cccccc;
+}
+
+#main {
+    width:960px;
+    margin: 0 auto;
+    border: 1px solid #f00;
+}
+#leftPanel,#rightPanel{
+    width: 200px;
+    float: left;
+}
+#middlePanel{
+    width:560px;
+    float: left;
+}
+#controllers{
+    border: 1px solid #f00;
+}
+#historyPanel{
+    border: 1px solid #f00;
+}
+#historyPanel span, #libraryContainer span, #dropImageContainer span, #curColPnlContainer span{
+    background-color: #f3f3f3;
+    color: #000;
+    display: block;
+    padding: 10px 5px;
+}
+#historyPanel div{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color: red;
+}
+#currentColorContainer{
+    height: 150px;
+    background-color: blue;
+    padding: 10px 10px 0px;
+}
+#currentColorContainer #curCol {
+    height: 80px;
+    background-color: yellow;
+}
+#currentColorContainer .clrCds{
+    float: left;
+    width: 60px;
+    text-align: center;
+}
+#library, #curColPnl{
+    display: table;
+    width: 100%;
+}
+#library .colorPallet, #curColPnl .colorPallet{
+    display: table-row;
+}
+#library .colorPallet div, #curColPnl .colorPallet div{
+    display: table-cell;
+    height: 40px;
+    border: 1px solid #000;
+}
+#curColPnl{
+
+}
+#colorWheelContainer{
+    height: 300px;
+    background-color: #ddd;
+}
+.clear{
+    clear: left;
+}
